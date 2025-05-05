@@ -59,3 +59,12 @@ This learning model has an **agent** that can observe the environment and perfor
 - Examples include: 
 	- robots that do physical tasks like walk, or move items. 
 	- chess/go bots. 
+### Batch vs Online Learning
+#### Batch Learning
+The AI Model is trained using all available data. Once the system is trained, it is launched into production and runs without further training. 
+- Periodic training needed in order to update the model to handle new scenario
+- Example: for a spam filter, train it to include new spam filters. 
+#### Online Learning
+Training the model incrementally by feeding it data instances sequentially called *mini batches*. 
+* The system can learn about new data on the fly. 
+* Example: For spam filter, automatically recognize and update model. ww
